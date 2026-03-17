@@ -37,5 +37,8 @@ public class User {
     @Column(nullable = false)
     private boolean emailVerified = false;
 
+    @Column(nullable = false, columnDefinition = "INT DEFAULT 0")
+    private Integer currentDueCents = 0;
+
     public enum Role { CLIENT, CAREGIVER, ADMIN }
 }
