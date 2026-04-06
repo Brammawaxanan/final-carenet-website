@@ -1,0 +1,92 @@
+
+
+body {
+  background-color: #1a5abb;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+
+
+.booking-container {
+  background-color: #1a5abb; 
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+
+.profile-card {
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+.booking-form h5 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+
+.date-picker .MuiInputBase-root {
+  border-radius: 8px;
+}
+
+
+.MuiFormControl-root {
+  margin-top: 0.5rem;
+}
+
+
+.MuiTextField-root {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+
+.MuiTextField-root textarea {
+  padding: 0.5rem;
+}
+
+
+.total-cost {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+
+.confirm-button {
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.confirm-button:hover {
+  background-color: #115293;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.MuiAvatar-root {
+  border: 2px solid #1976d2;
+}
+
+
+@media (max-width: 768px) {
+  .booking-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
